@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap');
+@media screen and (max-width: 576px) {
+    body{
+        width: 100vw;
+        margin: 0;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        background-color: #eff1f2;}
+        div{
+            font-size: 1rem;
+            margin: 10vh auto;
+            padding: 3rem 0;
+            text-align: center;
+            background-color: #526c7c6e;
+            width: 90%;
+        }
+        img{
+            margin-top: 10vh;
+            width:90%
+        }
+
+}
+@media screen and (min-width: 576.1px) and (max-width: 992px) {
+   body{
+        width: 100vw;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        background-color: #eff1f2;}
+        div{
+            font-size: 1.2rem;
+            margin: 10vh auto;
+            padding: 3rem 0;
+            text-align: center;
+            background-color: #526c7c6e;
+            width: 60%;
+        }
+        img{
+            margin-top: 5vh;
+            width:50%
+        }
+
+
+}
+@media screen and (min-width: 992.1px){   
+    body{
+    width: 100vw;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    background-color: #eff1f2;}
+
+    div{
+        font-size: 1.5rem;
+        margin: 10vh auto;
+        padding: 3rem 0;
+        text-align: center;
+        background-color: #526c7c6e;
+        width: 60%;
+    }
+    img{
+        padding-top: 5vh;
+        width:50%
+    }
+
+
+}
